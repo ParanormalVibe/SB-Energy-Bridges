@@ -1,0 +1,14 @@
+{
+  "materialId" : 2928557,
+  "materialName" : "energyblockleft",
+  "frames" : "energyblockleft.png",
+  "transparent" : true,
+  "particleColor" : [145, 186, 233, 255],
+  "variants" : 1,
+  "itemDrop" : "energyblock",
+  "shortdescription" : "Energy Block",
+  "description" : "A block of hard light.",
+  "footstepSound" : "/sfx/blocks/footstep_crystal.wav",
+  "health" : 10000,
+  "damageTable" : "/tiles/flammableDamage.config"
+}

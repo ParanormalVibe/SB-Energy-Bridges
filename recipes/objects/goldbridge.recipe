@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "goldbar", "count" : 1 },
+    { "item" : "torch", "count" : 1 },
+	{ "item" : "coalore", "count" : 10 }
+  ],
+  "output" : { "item" : "goldbridge", "count" : 1 },
+  "groups" : [ "metalworkstation", "wire", "objects", "all" ]
+}

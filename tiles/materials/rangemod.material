@@ -1,0 +1,14 @@
+{
+  "materialId" : 1121,
+  "materialName" : "rangemod",
+  "frames" : "rangemod.png",
+   "transparent" : true,
+  "particleColor" : [145, 186, 233, 255],
+  "variants" : 1,
+  "itemDrop" : "rangemodblock",
+  "shortdescription" : "Range Mod Attachment",
+  "description" : "Increases the range of an energy bridge when placed behind its emitter.",
+  "footstepSound" : "/sfx/blocks/footstep_crystal.wav",
+  "health" : 1,
+  "damageTable" : "/tiles/flammableDamage.config"
+}

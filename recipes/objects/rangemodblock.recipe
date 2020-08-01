@@ -1,0 +1,8 @@
+{
+  "input" : [
+	{ "item" : "mediummetal", "count" : 1 },
+	{ "item" : "coalore", "count" : 10 }
+  ],
+  "output" : { "item" : "rangemodblock", "count" : 1 },
+  "groups" : [ "plain", "wire", "objects", "all" ]
+}

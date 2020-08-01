@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "Ceruliumbar", "count" : 1 },
+    { "item" : "torch", "count" : 1 },
+	{ "item" : "uraniumrod", "count" : 5 }
+  ],
+  "output" : { "item" : "ceruliumbridge", "count" : 1 },
+  "groups" : [ "metalworkstation", "wire", "objects", "all" ]
+}

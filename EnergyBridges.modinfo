@@ -1,0 +1,12 @@
+{
+  "name" : "Energy Bridges",
+  "version" : "Beta v. Enraged Koala",
+  "path" : ".",
+  "metadata": {
+	"displayName" : "Energy Bridges",
+    "author" : "Julyuary",
+    "description" : "Adds Halo inspired energy bridges to the game.",
+    "support_url" : "http://community.playstarbound.com/index.php?resources/energy-light-bridges.1513/",
+	"version" : 1.2
+        }
+}

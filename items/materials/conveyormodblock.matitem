@@ -1,0 +1,9 @@
+{
+  "itemName" : "conveyormodblock",
+  "rarity" : "Common",
+  "inventoryIcon" : "conveyormodblock.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+   "shortdescription" : "Conveyor Mod Attachment",
+  "description" : "Increases the conveyor speed of an energy bridge when placed behind its emitter.",
+  "materialId" : 1120
+}

@@ -1,0 +1,38 @@
+{
+  "objectName" : "rubiumbridge",
+  "rarity" : "Common",
+  "objectType" : "wire",
+
+  "category" : "wire",
+  "price" : 600,
+  "description" : "It's a rubium energy bridge emitter.",
+  "shortdescription" : "Rubium Energy Bridge",
+  "race" : "generic",
+
+  "inventoryIcon" : "rubiumbridgeicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "rubiumbridge.png:<color>.off",
+      "imagePosition" : [-5, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "scripts" : [ "/scripts/bridgepanel.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switch3.animation",
+  "animationParts" : {
+    "switch" : "rubiumbridge.png"
+  },
+  "animationPosition" : [-5, 0],
+  "inboundNodes" : [ [0, 0] ],
+
+  "onSounds" : [ "/sfx/objects/apexconsole1on.wav" ],
+  "offSounds" : [ "/sfx/objects/apexconsole1off.wav" ],
+  "range" : 100,
+  "maxMods" : 12
+}

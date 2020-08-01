@@ -1,0 +1,14 @@
+{
+  "materialId" : 1120,
+  "materialName" : "conveyormod",
+  "frames" : "conveyormod.png",
+   "transparent" : true,
+  "particleColor" : [145, 186, 233, 255],
+  "variants" : 1,
+  "itemDrop" : "conveyormodblock",
+  "shortdescription" : "Conveyor Mod Attachment",
+  "description" : "Increases the conveyor speed of an energy bridge when placed behind its emitter.",
+  "footstepSound" : "/sfx/blocks/footstep_crystal.wav",
+  "health" : 1,
+  "damageTable" : "/tiles/flammableDamage.config"
+}

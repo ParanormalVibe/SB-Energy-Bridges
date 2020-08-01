@@ -1,0 +1,38 @@
+{
+  "objectName" : "imperviumbridge",
+  "rarity" : "Common",
+  "objectType" : "wire",
+
+  "category" : "wire",
+  "price" : 600,
+  "description" : "It's an impervium energy bridge emitter.",
+  "shortdescription" : "Impervium Energy Bridge",
+  "race" : "generic",
+
+  "inventoryIcon" : "imperviumbridgeicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "imperviumbridge.png:<color>.off",
+      "imagePosition" : [-5, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "scripts" : [ "/scripts/bridgepanel.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switch3.animation",
+  "animationParts" : {
+    "switch" : "imperviumbridge.png"
+  },
+  "animationPosition" : [-5, 0],
+  "inboundNodes" : [ [0, 0] ],
+
+  "onSounds" : [ "/sfx/objects/apexconsole1on.wav" ],
+  "offSounds" : [ "/sfx/objects/apexconsole1off.wav" ],
+  "range" : 120,
+  "maxMods" : 16
+}

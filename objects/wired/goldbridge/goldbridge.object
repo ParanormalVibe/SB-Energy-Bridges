@@ -1,0 +1,38 @@
+{
+  "objectName" : "goldbridge",
+  "rarity" : "Common",
+  "objectType" : "wire",
+
+  "category" : "wire",
+  "price" : 600,
+  "description" : "It's a golden energy bridge emitter.",
+  "shortdescription" : "Golden Energy Bridge",
+  "race" : "generic",
+
+  "inventoryIcon" : "goldbridgeicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "goldbridge.png:<color>.off",
+      "imagePosition" : [-5, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "scripts" : [ "/scripts/bridgepanel.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switch3.animation",
+  "animationParts" : {
+    "switch" : "goldbridge.png"
+  },
+  "animationPosition" : [-5, 0],
+  "inboundNodes" : [ [0, 0] ],
+
+  "onSounds" : [ "/sfx/objects/apexconsole1on.wav" ],
+  "offSounds" : [ "/sfx/objects/apexconsole1off.wav" ],
+  "range" : 40,
+  "maxMods" : 3
+}

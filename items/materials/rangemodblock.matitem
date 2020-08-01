@@ -1,0 +1,9 @@
+{
+  "itemName" : "rangemodblock",
+  "rarity" : "Common",
+  "inventoryIcon" : "rangemodblock.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+   "shortdescription" : "Range Mod Attachment",
+  "description" : "Increases the range of an energy bridge when placed behind its emitter.",
+  "materialId" : 1121
+}
